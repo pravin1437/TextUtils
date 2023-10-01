@@ -1,48 +1,37 @@
-# Spam-Ham Classifier Project
+# TextUtils
 
-This project focuses on building a Spam-Ham Classifier using the Naive Bayes algorithm and Count Vectorizer. The classifier is designed to distinguish between spam and non-spam (ham) messages. 
+TextUtils is a simple web application that provides various text manipulation functionalities. It allows users to easily convert text between uppercase and lowercase, clear the input, copy the manipulated text, and remove extra spaces.
 
-## Overview
+## Features
 
-The Spam-Ham Classifier is a machine learning model that analyzes text data to classify messages into one of two categories: spam or ham. It leverages the Naive Bayes algorithm, which is well-suited for text classification tasks. Additionally, it utilizes Count Vectorizer to convert text data into numerical feature vectors.
+- **Convert Case**: Toggle between uppercase and lowercase for your text.
+
+- **Clear Text**: Quickly clear the input area to start afresh.
+
+- **Copy Text**: Copy the modified text to your clipboard with a single click.
+
+- **Remove Extra Spaces**: Get rid of unnecessary spaces within the text.
+
+## How to Use
+
+1. Run the project.
+2. Enter or paste your text in the provided input area.
+3. Use the buttons to perform the desired operations.
+4. Copy the modified text using the "Copy Text" button.
 
 ## Tech Stack
 
-- Python
-- Machine Learning libraries (scikit-learn)
-- Jupyter Notebook
+- HTML
+- CSS
+- JavaScript
+- React JS
 
-## Inputs and Outputs
+## Contributing
 
-- Inputs: The classifier takes a dataset of labeled messages, where each message is tagged as either spam or ham.
-- Outputs: It produces predictions, classifying incoming messages as either spam or ham.
-
-## Main Challenges
-
-1. **Data Preprocessing**: Cleaning and preparing text data for machine learning is crucial. This includes tasks like tokenization, stopword removal, and handling imbalanced classes.
-
-2. **Feature Engineering**: Extracting meaningful features from text data is essential for the success of the model. Count Vectorizer converts text data into numerical format, which is compatible with machine learning algorithms.
-
-3. **Model Training**: Choosing the right algorithm and fine-tuning its parameters for optimal performance is a significant challenge.
-
-4. **Evaluation**: Selecting appropriate metrics to assess the model's performance (accuracy, precision, recall, F1-score, etc.) is critical.
-
-5. **Deployment**: Depending on the project requirements, deploying the model for real-time predictions may be a challenge.
-
-## Usage
-
-1. Clone the repository.
-2. Open and run the Jupyter Notebook for step-by-step implementation.
-3. Follow the comments and documentation within the code for guidance.
-
-## Contribution
-
-Contributions and improvements are welcome. Feel free to fork the repository and submit pull requests.
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-*Note: Please replace placeholders (if any) with specific details related to your project.*
